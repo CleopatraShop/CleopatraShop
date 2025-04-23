@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda Cleopatra</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="assets/img/logo.png" alt="Logo Tienda Cleopatra" class="logo"/>
+      <ul class="nav-menu">
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#nosotros">Sobre Nosotros</a></li>
+      </ul>
+      <img src="assets/img/cleopatra.png" alt="Cleopatra" id="cleopatra" />
+    </nav>
+  </header>
+
+  <main>
+    <section id="productos" class="productos">
+      <div class="producto">
+        <img src="assets/img/producto1.png" alt="Producto 1" />
+        <h2>Producto 1</h2>
+        <p>Descripción de producto 1.</p>
+        <button onclick="narrarHistoria('kohl')">Escuchar a Cleopatra</button>
+      </div>
+
+      <div class="producto">
+        <img src="assets/img/producto2.png" alt="Producto 2" />
+        <h2>Producto 2</h2>
+        <p>Descripción de producto 2.</p>
+        <button onclick="narrarHistoria('loto')">Escuchar a Cleopatra</button>
+      </div>
+
+      <div class="producto">
+        <img src="assets/img/producto3.png" alt="Producto 3" />
+        <h2>Producto 3</h2>
+        <p>Descripción de producto 3.</p>
+        <button onclick="narrarHistoria('unguento')">Escuchar a Cleopatra</button>
+      </div>
+
+      <div class="producto">
+        <img src="assets/img/producto4.png" alt="Producto 4" />
+        <h2>Producto 4</h2>
+        <p>Descripción de producto 4.</p>
+        <button onclick="narrarHistoria('arena')">Escuchar a Cleopatra</button>
+      </div>
+    </section>
+
+    <section id="historia-cleopatra">
+      <p id="historia"></p>
+    </section>
+
+    <section id="nosotros" class="sobre-nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        En Tienda Cleopatra nos inspiramos en la belleza ancestral y la realeza del antiguo Egipto. Nuestro propósito es ofrecer productos de alta calidad que no solo embellezcan, sino que también conecten con los rituales y símbolos sagrados que marcaban la vida de las grandes figuras de la historia, como la mismísima Cleopatra.
+      </p>
+      <p>
+        Cada uno de nuestros productos es una invitación a explorar la magia y el glamour de la antigüedad egipcia, traído a la vida con toques modernos y elegantes. Creemos en la belleza poderosa y única de cada persona, por eso, nuestros artículos están diseñados para resaltar lo mejor de ti, con la elegancia y la confianza de una reina.
+      </p>
+      <p>
+        Únete a nosotros en este viaje hacia el lujo, la historia y la belleza eterna. Nos llena de orgullo ser parte de tu camino hacia un bienestar y glamour sin igual.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
